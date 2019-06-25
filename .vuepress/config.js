@@ -17,7 +17,7 @@ module.exports = {
           lineNumbers: true
     },
     themeConfig: {
-        repo: 'clearives/blog',
+        // repo: 'clearives/blog',
         nav: require('./nav'),
         sidebar: require('./sidebar'),
         sidebarDepth: 2,
