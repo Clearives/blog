@@ -29,11 +29,10 @@ module.exports = {
                 buttonText: 'Refresh'
             }
         },
-        editLinks: true,
+        editLinks: false,
         editLinkText: '在 GitHub 上编辑此页 ！'
     },
     plugins: [
-        require('./plugins/blog-router'),
-        '@vuepress/last-updated'
+        require('./plugins/blog-router')
     ]
 }
