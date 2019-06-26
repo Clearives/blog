@@ -4,16 +4,22 @@ module.exports = {
     dest: './dist',
     port: '7777',
     head: [
-        ['link', {rel: 'icon', href: '/favicon.ico'}]
+        ['link', {
+            rel: 'icon',
+            href: '/favicon.ico'
+        }]
     ],
     markdown: {
         anchor: {
             permalink: true
-          },
-          toc: { 
+        },
+        externalLinks: {
+            target: ''
+        },
+        toc: {
             includeLevel: [1, 2, 3]
-          },
-          lineNumbers: true
+        },
+        lineNumbers: true
     },
     themeConfig: {
         // repo: 'clearives/blog',

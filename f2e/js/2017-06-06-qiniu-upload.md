@@ -126,6 +126,6 @@ created() {
 }
 
 ```
-到这里就可以正常的上传图片了，上传很粗糙，这里主要是说和七牛的搭配，上面的示例代码可能不能直接运行，可以参考一下，大家也可以在我的<a href="https://github.com/Clearives/cc-admin" target="_blank">github</a>上看,<a href="http://clearives.cc/project/cc-admin/index.html?mock#/component/uploader" target="_blank">Demo示例链接</a>,欢迎指正。
+到这里就可以正常的上传图片了，上传很粗糙，这里主要是说和七牛的搭配，上面的示例代码可能不能直接运行，可以参考一下，大家也可以在我的<a href="https://github.com/Clearives/cc-admin" target="_blank">github</a>上看,<a href="https://clearives.cc/project/cc-admin/index.html?mock#/component/uploader" target="_blank">Demo示例链接</a>,欢迎指正。
 
 七牛上传api参考：<a href="https://developer.qiniu.com/kodo/manual/1208/upload-token" target="_blank">上传凭证</a>

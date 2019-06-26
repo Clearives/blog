@@ -13,6 +13,10 @@ module.exports = {
       return
     }
     frontmatter.commentid = frontmatter.permalink 
-    frontmatter.permalink = frontmatter.permalink.indexOf('daily/') == 0 ? frontmatter.permalink : `${routePfx}${frontmatter.permalink}`
+    if (frontmatter.classify) {
+      frontmatter.permalink = `${frontmatter.permalink}`
+    } else {
+      frontmatter.permalink = `${routePfx}${frontmatter.permalink}`
+    }
   }
 }

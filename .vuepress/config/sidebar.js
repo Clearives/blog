@@ -29,10 +29,17 @@ const node = [
 
 const dailyRecord = [
     '',
+    '2019-06-25'
+]
+
+const me = [
+    'about',
+    'timeline'
 ]
 
 module.exports = {
     '/f2e/': f2e,
     '/node/': node,
-    'dailyRecord': dailyRecord
+    '/dailyRecord/': dailyRecord,
+    '/me/': me
 }
