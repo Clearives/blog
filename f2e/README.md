@@ -2,6 +2,7 @@
 title: "前端"
 date: "2019-06-10"
 permalink: "f2e"
+comment: false 
 ---
 
 ## 前端相关文章

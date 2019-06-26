@@ -6,14 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev ./",
-    "build": "vuepress build ./",
-    "cp": "cp -r ./dist/ ../clearives.github.io"
+    "build": "./node_modules/.bin/vuepress build .",
+    "cp": "cp -r ./dist/ ../clearives.github.io",
+    "deploy": "npm run build && npm run cp"
   },
   "keywords": [],
   "author": "clearives",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "vuepress": "^1.0.2"
+  "dependencies": {
+    "vuepress": "^1.0.2",
+    "vuepress-plugin-comment": "^0.5.4"
   }
 }

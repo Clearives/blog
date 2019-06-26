@@ -10,7 +10,6 @@ module.exports = {
         anchor: {
             permalink: true
           },
-          // markdown-it-toc 的选项
           toc: { 
             includeLevel: [1, 2, 3]
           },
@@ -18,8 +17,8 @@ module.exports = {
     },
     themeConfig: {
         // repo: 'clearives/blog',
-        nav: require('./nav'),
-        sidebar: require('./sidebar'),
+        nav: require('./config/nav'),
+        sidebar: require('./config/sidebar'),
         sidebarDepth: 2,
         lastUpdated: '更新于',
         searchMaxSuggestoins: 10,
@@ -33,6 +32,10 @@ module.exports = {
         editLinkText: '在 GitHub 上编辑此页 ！'
     },
     plugins: [
-        require('./plugins/blog-router')
+        require('./plugins/blog-router'),
+        [
+            'vuepress-plugin-comment',
+            require('./plugins/blog-comment'),
+        ]
     ]
 }
