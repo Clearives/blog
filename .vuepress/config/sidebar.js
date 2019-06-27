@@ -4,8 +4,16 @@ const f2e = [
         children: [
             'js/2017-06-06-qiniu-upload',
             'js/2017-06-23-livereload',
+            'js/array-and-object',
+            'js/array-clone',
         ]
     },
+    {
+        title: 'Css',
+        children: [
+            'css/autocolor',
+        ]
+    }
     
 ]
 
@@ -32,6 +40,10 @@ const dailyRecord = [
     '2019-06-25'
 ]
 
+const tech = [
+    'github-pages',
+]
+
 const me = [
     'about',
     'timeline'
@@ -41,5 +53,6 @@ module.exports = {
     '/f2e/': f2e,
     '/node/': node,
     '/dailyRecord/': dailyRecord,
+    '/tech/': tech,
     '/me/': me
 }

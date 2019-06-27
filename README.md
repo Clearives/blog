@@ -19,4 +19,15 @@ footer: Copyright © 2019-present clearives.cc
 - [BASE64加/解密](https://clearives.cc/page/BASE64-encryption-decryption/)
 
 
+## 技术相关
+
+- [Github Pages](https://clearives.cc/page/github-pages/)
+
+
+## 其他
+
+- [关于我](https://clearives.cc/about/)
+- [时间轴](https://clearives.cc/timeline/)
+
+
 
