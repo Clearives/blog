@@ -1,3 +1,5 @@
+const helper = require('../helper/index')
+
 const f2e = [
     {
         title: 'Javascript',
@@ -37,7 +39,6 @@ const node = [
 
 const dailyRecord = [
     '',
-    '2019-06-25'
 ]
 
 const tech = [
@@ -50,9 +51,9 @@ const me = [
 ]
 
 module.exports = {
-    '/f2e/': f2e,
-    '/node/': node,
-    '/dailyRecord/': dailyRecord,
-    '/tech/': tech,
-    '/me/': me
+    '/f2e/': helper.sideBarUtil.renderSidebarConfig('f2e'),
+    '/node/': helper.sideBarUtil.renderSidebarConfig('node'),
+    '/dailyRecord/': helper.sideBarUtil.renderSidebarConfig('dailyRecord'),
+    '/tech/': helper.sideBarUtil.renderSidebarConfig('tech'),
+    '/me/': helper.sideBarUtil.renderSidebarConfig('me'),
 }
