@@ -19,7 +19,7 @@ permalink: "2017-06-23-livereload"
 
 > cmd + shift + p打开控制台install packages,搜索LiveReload安装即可，安装完成后进入包设置文件Preferences > Package Settings > LiveReload > Settings User，在里面添加下面这段：
 
-```
+```json
 {"enabled_plugins": ["SimpleReloadPlugin","SimpleRefresh"]}
 ```
 

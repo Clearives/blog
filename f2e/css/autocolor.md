@@ -8,11 +8,11 @@ win7大家都使用过，当我们更换壁纸的时候，我们会发现窗口�
 下面我们来看一个例子，就是我们通过Autocolor来得到一个与图片色调相近的rgba颜色。
 <!--more-->
 HTML：
-```
+```html
 <div id="box"></div>
 ```
 css:
-```
+```css
 body{width:100%; height:100%; margin:0; padding:0; overflow:hidden; font-size:14px; font-family:Microsoft YaHei,Helvetica,Arial;}
 #box{position: relative;border-radius: 5px;}
 img{display: block;position: absolute;top: 35%;left: 50%;margin-top: -34px;margin-left: -34px;}
@@ -20,7 +20,7 @@ img{display: block;position: absolute;top: 35%;left: 50%;margin-top: -34px;margi
 .txt{margin-top:100px;text-align: center;color: #fff;}
 ```
 javascript：
-```
+```js
 var imgList = {
         "gameImg":[
             {"src":"images/1.jpg","title":"天天酷跑"},
@@ -50,7 +50,7 @@ var imgList = {
 大家这时应该注意到了，每个游戏图标下面的背景都不是我定义的，css里面没有，js里面也没有，这都是通过Autocolor这个函数实现的，大致看上去，颜色还满协调，有一些测试的时候颜色确实不搭，因为代码里面对颜色处理的算法不完善，我觉得还不错，供大家学习还是不错的。
 
 最后把Autocolor这个函数的代码贴出来，大家可以自己参考：
-```
+```js
 (function () {
     var matchCanvas = document.createElement("canvas");
     if (matchCanvas) {

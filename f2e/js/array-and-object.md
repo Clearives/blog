@@ -13,7 +13,7 @@ permalink: "array-and-object"
 
 #### 1、constructor
 
-```
+```js
     var arr = [1, 2, 3]
     var obj = {
         name: 'clearives',
@@ -27,7 +27,7 @@ permalink: "array-and-object"
 #### 2、toString方法
 
 
-```
+```js
     var arr = [1, 2, 3]
     var obj = {
         name: 'clearives',
@@ -42,7 +42,7 @@ permalink: "array-and-object"
 
 #### 3、instanceof
 
-```
+```js
     var arr = [1, 2, 3]
     var obj = {
         name: 'clearives',
